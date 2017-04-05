@@ -1,0 +1,12 @@
+{
+  "name": "sinri/axjsms-client",
+  "description": "安信捷短信的玩意",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sinri",
+      "email": "e.joshua.s.e@gmail.com"
+    }
+  ]
+}
