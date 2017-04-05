@@ -17,7 +17,7 @@ $params = array(
 );
 
 $client = new \sinri\axjsmsclient\AXJSMSClient($params);
-$code = $client->sendSMS("18768113897", "人类真是虚无", $result);
+$code = $client->sendSMS("18768113897", "按着定命，人人都有一死，死后且有审判", $result);
 
 echo "code: " . $code . PHP_EOL;
 echo "as: " . \sinri\axjsmsclient\AXJSMSClient::statusCodeDictionary($code) . PHP_EOL;

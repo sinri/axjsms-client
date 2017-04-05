@@ -10,5 +10,5 @@ require_once __DIR__ . '/AXJSMSClient.php';
 
 use \sinri\axjsmsclient\AXJSMSClient;
 
-AXJSMSClient::log('INFO', $_GET);
+AXJSMSClient::log('INFO', $_REQUEST);
 echo "OK";
