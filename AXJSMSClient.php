@@ -11,7 +11,7 @@ namespace sinri\axjsmsclient;
 
 class AXJSMSClient
 {
-    const API_VERSION = '3.0';
+    const API_VERSION = '3.1';
     const IN_DEBUG = false;
 
     private $apiBaseUrl = "";
@@ -118,7 +118,8 @@ class AXJSMSClient
             $file,
             date('Y-m-d H:i:s') .
             " [{$level}] " .
-            json_encode($object, JSON_UNESCAPED_UNICODE),
+            json_encode($object, JSON_UNESCAPED_UNICODE) .
+            PHP_EOL,
             FILE_APPEND
         );
     }
